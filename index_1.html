@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML list, image, table and form </title>
+</head>
+
+<h1>HTML List, Image, Table and Form</h1>
+<body>
+    <h1>HTML Lists</h1>
+    <h3>Ordered Lists</h3>
+
+    <ol type="A" start="1">
+        <li>Software Engineering</li>
+        <li>Web Development</li>
+        <li>Python</li>
+        <li>Database</li>
+        <li>Startup Building</li>
+    </ol>
+
+    <h3>Unordered Lists</h3>
+    <ul>
+        <li>Mr. Chakin</li>
+        <li>Miss. Susan</li>
+        <li>Mr. Eddy</li>
+        <li>Mr. Gerald</li>
+        <li>Miss. Nelly</li>
+    </ul>
+
+    <h3>Definition Lists</h3>
+    <dl >   
+        <dt>Software Engineering</dt>
+        <dd>A field of computer science concerned with the design, development, implementation, and maintenance of software applications.</dd>
+        <dt>Web Development</dt>
+        <dd>The process of creating websites and web applications using HTML, CSS, and JavaScript.</dd>
+        <dt>Python</dt>
+        <dd>An interpreted high-level general-purpose programming language.</dd>
+        <dt>Database</dt>
+        <dd>A structured collection of data stored in a computer system.</dd>
+        <dt>Startup Building</dt>
+        <dd>The process of developing a new company from scratch.</dd>
+    </dl>
+
+    <h1>HTML Images</h1>
+    <img src="image.jpg" alt="void" width="350" height="200">
+
+    <h1>HTML Tables</h1>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <caption>information table</caption>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>Smith</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>Johnson</td>
+                    <td>35</td>
+                </tr>
+            </tbody>
+            
+        </thead>
+    </table>
+    <h1>Form</h1>
+    <form action="" method="">
+      <label for="name">Name</label><n&bsp>
+      <input type="text" id="student_name" name="student_name" placeholder="Enter your name"><br><br>
+      <label for="gender">Gender</label>
+      <input type="radio" id="male" name="gender" value="male"> Male
+      <input type="radio" id="female" name="gender" value="female"> Female <br><br>
+      
+      <label for="hobbies">Hobbies</label> <br>
+        <input type="checkbox" id="singing" name="hobbies" value="singing"> Singing <br>
+        <input type="checkbox" id="dancing" name="hobbies" value="dancing"> Dancing <br>
+        <input type="checkbox" id="cooking" name="hobbies" value="cooking"> Cooking <br>
+        <input type="checkbox" id="travelling" name="hobbies" value="travelling"> Travelling <br>
+        <input type="checkbox" id="gaming" name="hobbies" value="gaming"> Gaming <br>
+        <input type="checkbox" id="swimming" name="hobbies" value="swimming"> Swimming <br>
+        <input type="checkbox" id="cycling" name="hobbies" value="cycling"> Cycling <br>
+        <input type="checkbox" id="running" name="hobbies" value="running"> Running <br>
+        <input type="checkbox" id="walking" name="hobbies" value="walking"> Walking <br>
+        <input type="checkbox" id="yoga" name="hobbies" value="yoga"> Yoga <br>
+        <input type="checkbox" id="meditation" name="hobbies" value="meditation"> Meditation <br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading"> Reading <br>
+        <input type="checkbox" id="writing" name="hobbies" value="writing"> Writing <br>
+        <input type="checkbox" id="painting" name="hobbies" value="painting"> Painting<br><br>
+        
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="rsa">South Africa</option>
+            <option value="kenya">Kenya</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="namibia">Namibia</option>
+            <option value="ngeria">Nigeria</option>
+        </select>
+        <br><br>
+        <label for="description">Describe yourself</label> <br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea>
+        <br><br>
+        <input type="button" value="Register">
+        <input type="reset" value="Reset">
+        <input type="button" value="Cancel">
+    </form>
+</body>
+</html>
